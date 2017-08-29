@@ -10,6 +10,17 @@
   "license": "ISC",
   "dependencies": {
     "ejs": "^2.5.7",
-    "express": "^4.15.4"
-  }
+    "express": "^4.15.4",
+    "gulp": "^3.9.1",
+    "semantic-ui": "^2.2.13"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Seraph1m89/BeautyLabByLinaGolub.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Seraph1m89/BeautyLabByLinaGolub/issues"
+  },
+  "homepage": "https://github.com/Seraph1m89/BeautyLabByLinaGolub#readme"
 }
