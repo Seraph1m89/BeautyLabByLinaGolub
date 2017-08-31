@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    overflow: hidden;
+    text-rendering: optimizeLegibility;
+    font-size: 20px;
+}
+
+header {
+    background-image: url("images/hero.jpg");
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
