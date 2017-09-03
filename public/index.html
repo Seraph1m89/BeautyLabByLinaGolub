@@ -7,33 +7,101 @@
 
         <link rel="stylesheet" href="css/lib/normalize.min.css">        
         <link rel="stylesheet" href="../semantic/out/semantic.min.css">
-        <link rel="stylesheet" href="css/lib/ionicons.min.css">
+        <link rel="stylesheet" href="css/lib/font-awesome.min.css">
         <link href="css/style.css" rel="stylesheet">
     </head>
     <body>
         <header>
-            <nav class="ui fixed pink menu">
+            <nav class="ui borderless menu">
                 <div class="ui container">
-                    <a href="#" class="header item borderless">
+                    <a href="#" class="header item ">
                         <img src="" alt="Logo" class="logo">
                         Beauty Lab
                     </a>
                     <div class="right menu">
-                        <a href="https://www.facebook.com/LpigeoNka" class="vertically fitted item borderless">
-                            <i class="ion-social-facebook"></i>
-                        </a>
-                        <a href="https://www.instagram.com/lina.golub25/" class="vertically fitted item borderless">
-                            <i class="ion-social-instagram"></i>
-                        </a>
+                        <div class="vertically fitted item borderless">
+                            <a href="https://www.facebook.com/BeautyLabByLG">
+                                <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                        <div class="vertically fitted item borderless square-container">
+                            <a href="www.instagram.com/beautylab_by_lg" >
+                                <i class="fa fa-instagram square-content" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                        <div class="vertically fitted item borderless">
+                            <div class="phone-number">
+                                <i class="fa fa-phone" aria-hidden="true"></i>
+                                (093)-483-6412                                
+                            </div>
+                        </div>
                     </div>
                 </div>
             </nav>
         </header>
+        <section class="section-services">
+            <div class="ui four column stackable grid">
+                <div class="column">
+                    <h2 class="services-header">
+                        Качественный сервис
+                    </h2>
+                    <div class="services-description">
+                        Бла-бла-бла, мы лучшие в нашей сфере.
+                        <br>
+                        Мур-мур, Вам у нас понравится
+                        <br>
+                        Вы не захотите нас покидать
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="service">
+                        <h3 class="service-header">
+                            Ресницы
+                        </h3>
+                        <div class="service-description">
+                            Тут надо написать как классно ты делаешь ресницы
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="service">
+                        <h3 class="service-header">
+                            Ногти
+                        </h3>
+                        <div class="service-description">
+                            Ты ведь еще делаешь ногти
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="service">
+                        <h3 class="service-header">
+                            Дополнительно
+                        </h3>
+                        <div class="service-description">
+                            Покраска волос?
+                            <br>
+                            Мейкап?
+                            <br>
+                            Обойдемся?
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
+        <section class="section-location">
+            <div class="map"></div>
+        </section>
 
-        <a href="https://www.facebook.com/LpigeoNka">
-            <i class="ion-social-instagram"></i>
-        </a>
-        <script src="js/libs/jquery-3.2.1.min.js"></script>
+        <script src="js/libs/jquery-3.2.1.min.js"></script>        
+        <script src="js/libs/html5shiv.min.js"></script>
+        <script src="js/libs/nwmatcher.min.js"></script>
+        <script src="js/libs/selectivizr.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+        <script src="js/libs/jquery.waypoints.min.js"></script>
+        <script src="http://maps.google.com/maps/api/js?key=AIzaSyBsmPTg1e-jLbrfHSrE9_Y5JEOyhs9K42w"></script>
+        <script src="js/libs/gmaps.min.js"></script>
+        <script src="js/script.js"></script>
     </body>
 </html>
